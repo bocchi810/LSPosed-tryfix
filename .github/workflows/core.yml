@@ -49,7 +49,7 @@ jobs:
       - name: Checkout libxposed/service
         uses: actions/checkout@v4
         with:
-          repository: libxposed/service
+          repository: bocchi810/libxposed-service
           path: libxposed/service
 
       - name: Setup Java
